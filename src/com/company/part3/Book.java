@@ -1,4 +1,7 @@
+package com.company.part3;
+
 import java.util.ArrayList;
+
 class BookArray {
     ArrayList<Book> books = new ArrayList<>();
 
@@ -7,6 +10,7 @@ class BookArray {
         books.add(d);
     }
 }
+
 public class Book {
     private String name, author, genre;
 
@@ -47,6 +51,7 @@ public class Book {
         return genre;
     }
 }
+
 class BookTest {
     public static void main(String[] args) {
         BookArray books = new BookArray();

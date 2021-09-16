@@ -1,3 +1,5 @@
+package com.company.part3;
+
 public class Human {
     public static void main(String[] args) {
         Leg leg = new Leg(100, 43);
@@ -8,6 +10,7 @@ public class Human {
         hand.moveHand();
     }
 }
+
 class Head {
     private boolean isEyes = true;
 
@@ -15,6 +18,7 @@ class Head {
         isEyes = false;
     }
 }
+
 class Leg {
     private int size;
 
@@ -31,12 +35,13 @@ class Leg {
     }
 
     public void oneStep() {
-        System.out.println("Сделан Шаг");
+        System.out.println("oneStep()");
     }
 
 }
+
 class Hand {
     public void moveHand() {
-        System.out.println("Рука произвела движение");
+        System.out.println("moveHand()");
     }
 }

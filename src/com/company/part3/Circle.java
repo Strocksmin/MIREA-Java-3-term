@@ -1,3 +1,5 @@
+package com.company.part3;
+
 public class Circle {
     private double radius;
 
@@ -25,9 +27,10 @@ class CircleTest {
     public static void main(String[] args)
     {
         Circle cir = new Circle(5);
-        System.out.println("Радиус окружности равен: " + cir.getRadius() + " Длина окружности равна: " + cir.getLength() + " Площадь окружности равна: " + cir.getSquare());
+        System.out.println("Радиус окружности равен: " + cir.getRadius() + " Длина окружности равна: " +
+                cir.getLength() + " Площадь окружности равна: " + cir.getSquare());
         cir.setRadius(10);
-        System.out.println("Радиус окружности равен: " + cir.getRadius() + " Длина окружности равна: " + cir.getLength() + " Площадь окружности равна: " + cir.getSquare());
+        System.out.println("Радиус окружности равен: " + cir.getRadius() + " Длина окружности равна: " +
+                cir.getLength() + " Площадь окружности равна: " + cir.getSquare());
     }
 }
-

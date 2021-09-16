@@ -1,14 +1,17 @@
+package com.company.partTwo;
+
 class Main {
 
     public static void main(String[] args) {
-        System.out.println("Класс мяч");
         Ball b = new Ball(15, "volleyball");
         System.out.println(b.getRadius());
-        System.out.println("\nКласс книга");
+        /// <----------------------------> ///
+        System.out.println("\nТестирование класса Book:");
         Book book = new Book("11/22/63", "Stiven King", "Romance");
         System.out.println(book);
     }
 }
+
 public class Ball {
     private int radius;
     private String type;
@@ -41,35 +44,6 @@ public class Ball {
 
     public double getVolume()
     {
-        return (4/3 * Math.PI * Math.pow(radius, 3));
-    }
-}
-
-class Book {
-    private String name, author, genre;
-
-    public Book(String n, String a, String g) {
-        name = n; author = a; genre = g;
-    }
-
-    @Override
-    public String toString() {
-        return "Book{" +
-                "name='" + name + '\'' +
-                ", author='" + author + '\'' +
-                ", genre='" + genre + '\'' +
-                '}';
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public String getAuthor() {
-        return author;
-    }
-
-    public String getGenre() {
-        return genre;
+        return ((double)4/3 * Math.PI * Math.pow(radius, 3));
     }
 }
