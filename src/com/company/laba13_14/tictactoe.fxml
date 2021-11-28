@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.company.laba13_14.TicTacToeController">
+    <columnConstraints>
+        <ColumnConstraints />
+        <ColumnConstraints />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints />
+        <RowConstraints />
+    </rowConstraints>
+    <children>
+        <AnchorPane prefHeight="457.0" prefWidth="402.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+            <children>
+                <Label layoutX="61.0" prefHeight="53.0" prefWidth="334.0" text="Крестики-нолики">
+                    <font>
+                        <Font size="36.0" />
+                    </font>
+                </Label>
+                <TextField fx:id="title2" layoutX="48.0" layoutY="375.0" prefHeight="53.0" prefWidth="307.0">
+                    <font>
+                        <Font size="24.0" />
+                    </font>
+                </TextField>
+            <Button fx:id="button00" layoutX="81.0" layoutY="93.0" mnemonicParsing="false" onAction="#button00Clicked" prefHeight="60.0" prefWidth="60.0">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+            <Button fx:id="button01" layoutX="141.0" layoutY="93.0" mnemonicParsing="false" onAction="#button01Clicked" prefHeight="60.0" prefWidth="60.0">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+            <Button fx:id="button02" layoutX="201.0" layoutY="93.0" mnemonicParsing="false" onAction="#button02Clicked" prefHeight="60.0" prefWidth="60.0">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+            <Button fx:id="button03" layoutX="261.0" layoutY="93.0" mnemonicParsing="false" onAction="#button03Clicked" prefHeight="60.0" prefWidth="60.0">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+            <Button fx:id="button10" layoutX="81.0" layoutY="153.0" mnemonicParsing="false" onAction="#button10Clicked" prefHeight="60.0" prefWidth="60.0">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+            <Button fx:id="button11" layoutX="141.0" layoutY="153.0" mnemonicParsing="false" onAction="#button11Clicked" prefHeight="60.0" prefWidth="60.0">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+            <Button fx:id="button12" layoutX="201.0" layoutY="153.0" mnemonicParsing="false" onAction="#button12Clicked" prefHeight="60.0" prefWidth="60.0">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+            <Button fx:id="button13" layoutX="261.0" layoutY="153.0" mnemonicParsing="false" onAction="#button13Clicked" prefHeight="60.0" prefWidth="60.0">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+            <Button fx:id="button20" layoutX="81.0" layoutY="213.0" mnemonicParsing="false" onAction="#button20Clicked" prefHeight="60.0" prefWidth="60.0">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+            <Button fx:id="button21" layoutX="141.0" layoutY="213.0" mnemonicParsing="false" onAction="#button21Clicked" prefHeight="60.0" prefWidth="60.0">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+            <Button fx:id="button22" layoutX="201.0" layoutY="213.0" mnemonicParsing="false" onAction="#button22Clicked" prefHeight="60.0" prefWidth="60.0">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+            <Button fx:id="button23" layoutX="261.0" layoutY="213.0" mnemonicParsing="false" onAction="#button23Clicked" prefHeight="60.0" prefWidth="60.0">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+            <Button fx:id="button30" layoutX="81.0" layoutY="273.0" mnemonicParsing="false" onAction="#button30Clicked" prefHeight="60.0" prefWidth="60.0">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+            <Button fx:id="button31" layoutX="141.0" layoutY="273.0" mnemonicParsing="false" onAction="#button31Clicked" prefHeight="60.0" prefWidth="60.0">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+            <Button fx:id="button32" layoutX="201.0" layoutY="273.0" mnemonicParsing="false" onAction="#button32Clicked" prefHeight="60.0" prefWidth="60.0">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+            <Button fx:id="button33" layoutX="261.0" layoutY="273.0" mnemonicParsing="false" onAction="#button33Clicked" prefHeight="60.0" prefWidth="60.0">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+            </children>
+        </AnchorPane>
+    </children>
+</GridPane>
